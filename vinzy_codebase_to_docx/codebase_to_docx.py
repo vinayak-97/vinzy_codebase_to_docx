@@ -212,6 +212,10 @@ class CodebaseConverter:
         print(f"\nDocument saved: {self.output_path}")
         
         return self.output_path
+    
+    def author(self) -> str:
+        """Return the author of the codebase converter."""
+        return "Developed by Vinayak Bhosale"
 
 
 # Example usage function
